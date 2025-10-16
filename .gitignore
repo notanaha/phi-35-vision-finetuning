@@ -1,0 +1,15 @@
+# Python cache directories (all subdirectories)
+__pycache__/
+**/__pycache__/
+
+# Data and output directories
+converted_ucf101/
+environment/
+src/
+
+# Environment file
+.env
+
+# Other temporary files
+phi-35-vision-ft-01-backup.ipynb
+ft-project.db
