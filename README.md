@@ -13,7 +13,7 @@ Fine-tune Microsoft's Phi-3.5 Vision model for video action classification using
 
 ### 1. Prepare Data
 ```bash
-python convert_ucf101_win.py --out_dir ./converted_ucf101
+python convert_ucf101.py --out_dir ./converted_ucf101
 ```
 
 Upload to Azure ML Datastore: `azureml://datastores/workspaceblobstore/paths/converted_ucf101/`
