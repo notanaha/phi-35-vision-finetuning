@@ -15,8 +15,13 @@ Fine-tune Microsoft's Phi-3.5 Vision model for video action classification using
 ```bash
 python convert_ucf101.py --out_dir ./converted_ucf101
 ```
+or on Windows PC,
+```bash
+python convert_ucf101_win.py --tmp_dir .\tmp\ucf101 --out_dir .\converted_ucf101"
+```
 
 Upload to Azure ML Datastore: `azureml://datastores/workspaceblobstore/paths/converted_ucf101/`
+<br>
 
 ### 2. Configure Environment
 Create `.env`:
