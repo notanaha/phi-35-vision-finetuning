@@ -58,3 +58,7 @@ Execute `phi-35-vision-ft-01.ipynb`:
 - **Precision**: BF16
 - **Framework**: TRL SFTTrainer + Transformers
 
+## Reference
+**PhiCookBook**
+- [finetune_hf_trainer_ucf101.py](https://github.com/microsoft/PhiCookBook/blob/main/code/04.Finetuning/vision_finetuning/finetune_hf_trainer_ucf101.py)
+- [Phi-3.5-vision finetuning recipe](https://github.com/microsoft/PhiCookBook/blob/main/md/03.FineTuning/FineTuning_Vision.md)
